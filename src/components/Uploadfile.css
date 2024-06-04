@@ -1,0 +1,81 @@
+.uploader {
+  border: 2px dashed #90A4AE;
+  border-radius: 5px;
+  position: relative;
+  padding: 20px;
+  transition: all 0.5s ease;
+  background: #ECEFF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.uploader:hover {
+  border-color: #78909C;
+}
+
+.hidden {
+  display: none;
+}
+
+#file-drag {
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#file-drag.hover {
+  background-color: #CFD8DC;
+  border-color: #B0BEC5;
+}
+
+#start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#start i.fa {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.divSelect {
+  font-size: 16px;
+  color: #546E7A;
+  margin: 10px 0;
+  
+}
+
+#file-upload-btn {
+  background-color: #42A5F5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#file-upload-btn:hover {
+  background-color: #1E88E5;
+}
+
+#response {
+  margin-top: 20px;
+}
+
+#messages {
+  font-size: 14px;
+  color: #37474F;
+}
+
+#file-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
